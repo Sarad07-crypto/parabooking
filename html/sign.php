@@ -32,7 +32,7 @@ function sendmail_verify($firstNamee, $emaill, $_vrerify, $otp_code)
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
     //Enable SMTP authentication
-    $mail->Username = 'saradcr7adhikari@gmail.com';
+    $mail->Username = '@gmail.com';
     $mail->Password = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
