@@ -33,7 +33,7 @@ function sendmail_verify($firstNamee, $emaill, $_vrerify, $otp_code)
     $mail->SMTPAuth = true;
     //Enable SMTP authentication
     $mail->Username = 'saradcr7adhikari@gmail.com';
-    $mail->Password = 'vtsl wtoo zusf ojbp';
+    $mail->Password = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
